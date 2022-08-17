@@ -1,0 +1,81 @@
+
+
+.bgImage {
+    background-image: url('/static/planka1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    opacity: 0.6;
+}
+
+.headingContainer {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+
+    
+}
+
+.heading {
+    font-size: 72px;
+    color: #ECC88C;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subheading {
+    display: flex;
+    font-size: 48px;
+    color: #ECC88C;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menuContainer {
+    padding: 20px;
+    text-align: center;
+    color: #ECC88C;
+    padding-bottom: 2rem;
+}
+
+.menuHeading {
+    font-size: 38px;
+    padding-bottom: 1rem;
+}
+
+.menuText {
+    font-size: 32px;
+    border: 1px solid #ECC88C;
+    padding:1rem 2rem;
+    border-radius: 10px;
+}
+
+.menuText:hover {
+    background-color: #ECC88C;
+    color: #0D4053;
+}
+
+@media  (max-width: 768px) {
+
+    .headingContainer {
+        left: 50%;
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 48px;
+    }
+
+    .subheading {
+        font-size: 32px;
+        justify-content: center;
+    }
+}
